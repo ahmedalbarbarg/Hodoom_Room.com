@@ -1,0 +1,504 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+ 
+}
+body
+{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(imgs/Best-Affordable-Mens-Online-Shops-0-Hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 4567890098765434567890;
+}
+
+.home::before 
+{
+     content: "";  
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100VH;
+    background-color:  rgba(0, 0, 0, 0.644) ;
+}
+
+.home .navbar
+{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+.home .navbar p
+{
+    float: left;
+    
+    
+    font-size: 30px;
+    font-weight: 600;
+    transition: 1s;
+}
+.home .navbar p:hover
+{
+    transform: scale(1.1);
+}
+.home .navbar p a
+{
+    color: #ff305b;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home .navbar ul
+{
+    float: right;
+
+}
+.clr
+{
+    clear: both;
+}
+
+.home .navbar ul li
+{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 20Px;
+}
+.home .navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.home .navbar ul li a:hover
+{
+    color: #ff305b;
+  
+
+}
+.home .text
+{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 230px;
+}
+.home .text h1
+{
+    color: #ff305b;
+    font-size: 80PX;
+
+    margin: 10PX;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home .text h2
+{
+    color: white;
+    text-align: center;
+    
+}
+/* ----------------the end home-------------------- */
+.about
+{
+    padding: 70px;
+
+}
+.about .imgs
+{
+    width: 50%;
+    float: left;
+}
+
+.about .imgs img
+{
+
+    width: 49%;
+    border-radius: 5px;
+    border: #ff305b 5px solid;
+    top: 10px;
+    margin-left: 300PX;
+
+} 
+.about .about_text
+{
+    margin-top:120px ;
+    width: 45%;
+    float: right;
+    padding-left: 20px;
+}
+
+.about .about_text h2
+{
+    border-left: #ff305b 5px solid ;
+    padding-left: 10px;
+    font-size: 28px;
+    color: black;
+}
+.about .about_text p
+{
+    padding: 10px 0px 0px 0px;
+    line-height: 25px;
+    font-size: 20px; 
+    color:rgb(54, 54, 54);
+
+}
+.about .about_text .mo
+{
+    border-bottom: #ff305b 2px dotted;
+    margin: 15px 0px;
+}
+ .about .thisisme
+{
+
+    width: 50%;
+    float: left;
+
+}
+.clr
+{
+    clear: both;
+}
+.about .about_text h3
+{
+    padding: 10px 0px;
+    color: black;
+}
+.about .about_text h3 span
+{
+    font-size: 17px;
+    color: #555555;
+    padding-left: 5px;
+}
+
+
+
+/* ----------------------------------ahmed------------------- */
+
+
+.sesstion2 .demo h2
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+.sesstion2 .our h3
+{
+    margin: 20px;
+}
+.sesstion2 
+{
+    background-color:#F1F1F1;
+    margin-top: 50px;
+    
+
+}
+.sesstion2 .demo 
+{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.ahmed
+{
+    border-bottom: #ff305b 2px solid;
+    width: 100Px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+.ahmed1
+{
+    border-bottom: #ff305b 2px solid;
+    width: 200Px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    
+
+}
+.sesstion2 .father
+{
+    /* background-color: violet; */
+    width: 90%;
+    padding-left: 80px;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 60px;
+    
+}
+.sesstion2 .our
+{
+
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+    line-height: 30px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+button:hover
+{
+    transform: scale(0.9);
+
+}
+
+img{
+    width: 100%;
+    transition: 2s;
+   
+}
+
+img:hover
+{
+    transform: scale(0.9);
+}
+button
+{
+    background-color: #ff305b;
+    padding: 15px;
+    color: white;
+    border: #ff305b;
+    border-radius: 8px;
+    width: 50%;
+    transition: 1s ;
+}
+a
+{
+    color: white;
+}
+
+
+
+/* ----------------------------------ahmed------------------- */
+
+
+
+.part_five
+{
+
+    width: 60%;
+    margin: auto;
+
+}
+
+.part_five .Services1
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+.part_five .Services1 .ahmed
+{
+    border-bottom: #ff305b 2px solid;
+    width: 100Px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+.part_five .Services1 .ahmed1
+{
+    border-bottom: #ff305b 2px solid;
+    width: 200Px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    
+
+}
+.part_five .Services1 h2
+{
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: black;
+}
+/* ---------------form-------------- */
+.part_five_form 
+{
+
+    width: 95%;
+    margin: auto;
+    
+
+}
+.part_five_form .form1
+{
+    width: 45%;
+    padding: 10PX;
+    border-radius:4PX ;
+    margin: 15PX;
+    color: black;
+    margin-bottom: 30px;
+}
+.part_five_form:hover
+{
+    border-radius: #ff305b;
+}
+.part_five_form .form2
+{
+    width: 45%;
+    padding: 10PX;
+    border-radius:4PX ;
+    margin: 15PX;
+    color: black;
+    margin-bottom: 30px;
+}
+.part_five_form .form3
+{
+    width: 94%;
+    padding: 10PX;
+    border-radius:4PX ;
+    margin: 15PX;
+    color: black;
+    margin-bottom: 30px;
+}
+.part_five_form .form4
+{
+    width: 94%;
+    padding: 30PX;
+    border-radius:4PX ;
+    margin: 15PX;
+    color: black;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.part_two .Services1
+{
+    margin: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.part_two .ahmed
+{
+    border-bottom: #ff305b 1px solid;
+    width: 100Px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+.part_two .ahmed1
+{
+    border-bottom: #ff305b 1px solid;
+    width: 200Px;
+    text-align: center;
+    margin: auto;
+
+    margin-bottom: 5px;
+
+}
+.part_two .Services1 h2
+{
+    color: black;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.part_two .part_img
+{
+    width: 80%;
+    color: #ff305b;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.part_two .part_img img
+{
+    width: 32%;
+    padding: 15px;
+    transition: 1s ;
+}
+.part_two .part_img img:hover
+{
+    transform: scale(0.9);
+
+}
+
+
+/* -------------------------the end part_five--------------------------- */
+.footer
+{
+
+    background-color: #333333;
+
+    overflow: auto;
+    margin-top: 30px ;
+}
+.footer .footer_tex
+{
+    width: 50%;
+
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.footer .footer_tex a
+{
+    margin: 15px;
+}
+.copy
+{
+    color: #ff305b;
+    margin: 0%;
+}
+.footer .ppp 
+{
+
+padding: 20px;
+margin-bottom: 50px;
+text-align: center;
+width: 50%;
+margin: auto;
+}
+.footer .footer_tex i
+{
+    color: #ff305b;
+    font-size: 25px;
+    
+}
+.footer .footer_tex i:hover
+{
+    color: white;
+    
+}
+
+.part_five_form .but
+{
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #ff305b;
+    border:none ;
+    border-radius: 5px;
+
+} 
+
